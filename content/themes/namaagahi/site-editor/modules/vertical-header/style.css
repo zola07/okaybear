@@ -1,0 +1,470 @@
+
+
+
+
+
+body.home.page-one-column .panel-content .wrap {
+	max-width: none !important; 
+}
+
+
+@media screen and (min-width: 48em){
+
+	.recent-agency-services-row .tg-grid-holder.tg-layout-masonry {
+	    /*max-width: 1166px !important;*/
+	}
+
+}
+
+
+body.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+    border-top: 0 none;
+}
+
+
+
+/*******/
+
+.module-separator.separator-skin3 .module-title.special-spr-center {
+    padding: 0 30px;
+}
+
+.module-separator.separator-skin3 .spr-container .separator:after,
+.module-separator.separator-skin3 .spr-container .separator:before{
+    content:"";
+    display: block;
+}
+
+.module-separator.separator-skin3 .spr-container .separator:before{
+    position: absolute;
+    height: 36px;
+    width: 12px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: inherit;
+    top: -21px;
+}
+
+.module-separator.separator-skin3 .spr-container:first-child .separator:before {
+    right: -25px;
+    left: auto;
+}
+.module-separator.separator-skin3 .spr-container:last-child .separator:before {
+    right: auto;
+    left: -25px;
+}
+
+.module-separator.separator-skin3 .spr-container .separator:after{
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-color: inherit;
+    top: -13px;
+}
+
+.module-separator.separator-skin3 .spr-container:first-child .separator:after {
+    right: -25px;
+    left: auto;
+    transform: rotate(-55deg) skew(-20deg);
+}
+.module-separator.separator-skin3 .spr-container:last-child .separator:after {
+    right: auto;
+    left: -25px;
+    transform: rotate(125deg) skew(-20deg);
+}									    				   					    				    				
+
+
+/***************/
+
+
+
+/******************/
+
+.footer-contact-form textarea,
+.footer-contact-form input[type="text"], 
+.footer-contact-form input[type="email"] {
+    background-color: transparent;
+    border-top: 0;
+}
+
+/* ================================= */
+/* :::::::: 5. Contact Form :::::::: */
+/* ================================= */
+
+
+.footer-contact-form .wpcf7-form-control:not([type="submit"]) {
+	background: transparent;
+	background-image: none;
+	border: none;
+	border-bottom: 1px solid #888;
+	border-radius: 0px;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset;
+	color: #ddd;
+	display: block;
+	font-size: 14px;
+	height: 34px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	width: 100%;      
+    padding-left: 0;
+    padding-right: 0;  
+}
+
+.footer-contact-form .wpcf7-form-control.wpcf7-textarea {
+    height: auto;
+}
+
+.footer-contact-form .wpcf7-form-control.wpcf7-submit {
+    margin-top: 24px;
+}
+
+.footer-contact-form .wpcf7-form-control:not([type="submit"]):focus { 
+	border-color: #f1e7c0;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 0px rgba(102, 175, 233, 0.6);
+	outline: 0 none;
+}
+
+.footer-contact-form .wpcf7-form-control::-webkit-input-placeholder {
+   color: #bbb;
+}
+
+.footer-contact-form .wpcf7-form-control:-moz-placeholder { /* Firefox 18- */
+   color: #bbb;  
+}
+
+.footer-contact-form .wpcf7-form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #bbb;  
+}
+
+.footer-contact-form .wpcf7-form-control:-ms-input-placeholder {  
+   color: #bbb;  
+}
+
+.footer-contact-form span.wpcf7-not-valid-tip {
+	float: right;
+	margin: -24px 2px 0 0;
+	position: relative;
+	top: 0;
+}
+
+.footer-contact-form span.wpcf7-not-valid-tip:before {
+	color: #ff0000;
+	font-size: 100%;
+	vertical-align: top;
+	content: "\f071";
+	margin-right: 10px;
+	font-family: FontAwesome;
+}
+
+.footer-contact-form div.wpcf7-validation-errors {
+	color: #fff;
+}
+
+.footer-contact-form .footer-contact-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.footer-contact-form .contact-form-col-2 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+/********/
+/*
+body .quito .tg-item-read-more, 
+body .quito .tg-item-footer {
+    display: none;
+}
+
+body #grid-70 .tg-item-overlay {
+    background-color: rgba(0,0,0,0.6);
+} 
+
+body .quito .tg-light .tg-media-button:hover, 
+body .quito .tg-light .tg-link-button:hover, 
+body .quito .tg-light .tg-media-button, 
+body .quito .tg-light .tg-link-button {
+    background: rgb(54, 48, 84);
+}
+
+.tg-grid-holder.tg-layout-masonry {
+    width: 100% !important;
+}
+
+@media (min-width: 1200px) {
+	body .quito.tg-item {
+	   // width: 565px !important;
+	}
+}*/
+
+/************
+
+body .brasilia .tg-item-content {
+    opacity: 1;
+}
+
+body .brasilia .tg-item-title,
+body .brasilia .tg-item-author {
+    opacity: 0;
+}
+
+body .brasilia .tg-item-content:hover .tg-item-title,
+body .brasilia .tg-item-content:hover .tg-item-author {
+    opacity: 1;    
+}
+
+body .brasilia  .tg-media-button  {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin-bottom: -22px;
+    margin-right: -28px;
+}
+
+body .brasilia  .tg-media-button i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: block;
+    background-color: #363054;
+}
+
+body #grid-75 .tg-item-overlay {
+    background-color: rgba(0,0,0,0.6);
+}
+
+/**************/
+
+body .module-single-image {
+    display: block;
+    font-size: 0;
+    margin-bottom: -1px;
+}
+
+body .module-single-image .img {  
+    display: inline-block;
+    font-size: 14px;
+}
+
+/********************/
+
+/* Hover effects */
+
+body .entry-content a,
+body .entry-summary a,
+body .widget a,
+body .site-footer .widget-area a,
+body .posts-navigation a,
+body .widget_authors a strong {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+body .entry-title a,
+body .entry-meta a,
+body .page-links a,
+body .page-links a .page-number,
+body .entry-footer a,
+body .entry-footer .cat-links a,
+body .entry-footer .tags-links a,
+body .edit-link a,
+body .post-navigation a,
+body .logged-in-as a,
+body .comment-navigation a,
+body .comment-metadata a,
+body .comment-metadata a.comment-edit-link,
+body .comment-reply-link,
+body a .nav-title,
+body .pagination a,
+body .comments-pagination a,
+body .site-info a,
+body .widget .widget-title a,
+body .widget ul li a,
+body .site-footer .widget-area ul li a,
+body .site-footer .widget-area ul li a {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; 
+}
+
+body .entry-content a:focus,
+body .entry-content a:hover,
+body .entry-summary a:focus,
+body .entry-summary a:hover,
+body .widget a:focus,
+body .widget a:hover,
+body .site-footer .widget-area a:focus,
+body .site-footer .widget-area a:hover,
+body .posts-navigation a:focus,
+body .posts-navigation a:hover,
+body .comment-metadata a:focus,
+body .comment-metadata a:hover,
+body .comment-metadata a.comment-edit-link:focus,
+body .comment-metadata a.comment-edit-link:hover,
+body .comment-reply-link:focus,
+body .comment-reply-link:hover,
+body .widget_authors a:focus strong,
+body .widget_authors a:hover strong,
+body .entry-title a:focus,
+body .entry-title a:hover,
+body .entry-meta a:focus,
+body .entry-meta a:hover,
+body .page-links a:focus .page-number,
+body .page-links a:hover .page-number,
+body .entry-footer a:focus,
+body .entry-footer a:hover,
+body .entry-footer .cat-links a:focus,
+body .entry-footer .cat-links a:hover,
+body .entry-footer .tags-links a:focus,
+body .entry-footer .tags-links a:hover,
+body .post-navigation a:focus,
+body .post-navigation a:hover,
+body .pagination a:not(.prev):not(.next):focus,
+body .pagination a:not(.prev):not(.next):hover,
+body .comments-pagination a:not(.prev):not(.next):focus,
+body .comments-pagination a:not(.prev):not(.next):hover,
+body .logged-in-as a:focus,
+body .logged-in-as a:hover,
+body a:focus .nav-title,
+body a:hover .nav-title,
+body .edit-link a:focus,
+body .edit-link a:hover,
+body .site-info a:focus,
+body .site-info a:hover,
+body .widget .widget-title a:focus,
+body .widget .widget-title a:hover,
+body .widget ul li a:focus,
+body .widget ul li a:hover {
+    color: #222222;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* Fixes linked images */
+body .entry-content a img,
+body .widget a img {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/**************/
+
+
+body .row-overlay.row-container-module.recent-agency-services-row::before {
+    height: 44%;
+    top: 26%;
+}
+
+
+/************************/
+
+
+.module.spcial-bar.social-bar-skin1 ul img {
+    max-width: 20px;
+    height: auto;
+}
+
+
+/************************/
+
+
+.mCS-light.mCSB_scrollTools, .mCS-light-dark.mCSB_scrollTools {
+    display: none !important;
+}
+
+
+
+/************************/
+
+/**
+ *
+ * Loading 
+ */
+
+.preloader {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 20000000;
+}
+
+.arc-rotate .loader {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: transparent;
+}
+
+.loader-container .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.arc-rotate .loader .arc { 
+    position: absolute;
+    border: 2px solid;
+    border-color: transparent #363054 #363054 #363054;
+    border-radius: 50%;
+    margin: 32% 0 0 32%;
+    width: 36%;
+    height: 36%;
+    -webkit-animation: single-arc-rotate 1s infinite linear;
+    animation: single-arc-rotate 1s infinite linear;
+}
+
+@-webkit-keyframes single-arc-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes single-arc-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.woocommerce-archive-default {
+    margin-bottom: 30px;
+}
+
+body.search.sed-no-sidebar .wrap > #primary form.search-form, 
+.error404:not(.has-sidebar) #primary .sed-404-one-column > .page-content form.search-form, 
+.error404.has-sidebar #primary .sed-404-one-column > .page-content form.search-form{
+    width: 100% !important;
+}
+
+.namahang-header{
+    z-index: 10;
+}
+
+.sed-app-editor .namahang-header{
+    z-index: auto;
+}
+
+.vertical-header-fixed .sed-pb-component > .sed-row-boxed{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body.twentyseventeen-front-page.sed-app-preview .twentyseventeen-panel-title{
+    display: none;    
+}
