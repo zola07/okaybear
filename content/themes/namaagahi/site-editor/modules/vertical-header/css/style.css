@@ -224,9 +224,9 @@ body.site-menu-open,
 }
 
 .vertical-header-inner.vertical-header-fixed .widget_nav_menu.widget ul li a {
-    color: #a6a0a4;
+    color: #ffffff;
     box-shadow: none;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 27px;
 }
 

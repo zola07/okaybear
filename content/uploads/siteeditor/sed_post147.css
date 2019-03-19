@@ -2247,3 +2247,13 @@
 .ms-parent-id-2 > .master-slider {
     margin-left: 0 !important;
 }
+
+.bigFont {
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+    .big2font {
+        font-weight: bold;
+        font-size: 14px;
+        }
